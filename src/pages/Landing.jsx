@@ -11,7 +11,7 @@ function Landing()
     return(
        <div className="max-w-6xl min-h-screen mx-auto flex justify-center items-center px-4">
              <div className="container">
-               <Header />
+               <Header username={data.state.user}/>
                <Card/>
                <Activity/>
              </div>
